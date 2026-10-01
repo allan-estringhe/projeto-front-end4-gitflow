@@ -29,7 +29,7 @@ document.querySelector('#app').innerHTML = `
         id="theme-button"
         class="theme-button"
         type="button"
-        aria-label="Ativar modo escuro"
+        aria-label="Ativar modo escuro da página"
       >
         🌙
       </button>
