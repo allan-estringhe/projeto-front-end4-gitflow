@@ -187,6 +187,8 @@ themeButton.addEventListener('click', () => {
   const darkMode = document.body.classList.toggle('dark')
 
   themeButton.textContent = darkMode ? '☀️' : '🌙'
+themeButton.title = darkMode ? 'Ativar modo claro' : 'Ativar modo escuro'
+themeButton.setAttribute('aria-pressed', darkMode)
   themeButton.setAttribute(
     'aria-label',
     darkMode ? 'Ativar modo claro' : 'Ativar modo escuro'
